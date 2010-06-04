@@ -6,11 +6,14 @@ A couple of reasons why you would want to keep a separate copy of all these pict
 
 * they are highly motivational
 * you don't always have Internet access
-* you might want to create an **awesome screensaver** by simply pointing it to the directory where you
-  store those post-its
-* you can shuffle these and for instance e-mail yourself daily one of those
+* you might want to create an `awesome screensaver
+  <http://ftp.langacore.org/pub/awesome_screensaver.png>`_ by simply pointing it to the directory
+  where you store those post-its
+* you can shuffle the post-its and e-mail yourself daily one of them
+* anything creative of the sorts, maybe you want to do a massive collage of the images for your next
+  yellow t-shirt?
 
-Installation
+Requirements
 ------------
 
 You need Python 3.1 with ``distribute``. Instructions on installing Python can be found on the `official
@@ -19,12 +22,23 @@ http://python-distribute.org and run it::
 
   python3.1 distribute_setup.py
 
-Now you can install our humble package::
+Installation
+------------
 
+The best bet will probably to use a stable package from `PyPI <http://pypi.python.org/>`_ which you
+can install by simply issuing::
+
+  python3.1 -m easy_install langacore.thingsweforget
+
+It will download the package and hopefully successfully build its depedencies (it's ``lxml`` for its
+awesome XML/HTML querying abilities).
+
+Alternatively, you can `download the source from GitHub
+<http://github.com/LangaCore/thingsweforget-fetcher>`_ and install it manually::
+
+  git clone git://github.com/LangaCore/thingsweforget-fetcher.git
+  cd thingsweforget-fetcher
   python3.1 setup.py install
-
-It will download and hopefully successfully build depedencies (it's ``lxml`` for its awesome
-XML/HTML querying abilities).
 
 Usage
 -----

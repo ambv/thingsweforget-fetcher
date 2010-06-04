@@ -1,12 +1,13 @@
 import sys
 import os
 
-sys.path.insert(0, os.path.join(os.path.split(os.path.realpath(__file__))[0], 'src')) 
-
-from langacore.thingsweforget import (__author__, __release__, __contact__, 
-                                      __doc__ as __description__)
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src')) 
 
 from setuptools import setup, find_packages
+from langacore.thingsweforget import __author__, __release__, __contact__
+
+__description__ = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
+
 setup(
     name = "langacore.thingsweforget",
     version = __release__,
