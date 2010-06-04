@@ -2,9 +2,11 @@
 *.db
 *.old
 *.bak
+*.swp
+*.local
 /doc/_build
 /build
 /dist
 .DS_Store
-*.swp
+.local
 /src/langacore.thingsweforget.egg-info

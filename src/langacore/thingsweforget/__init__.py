@@ -10,10 +10,3 @@ __version__ = "0.1"
 __release__ = "0.1.0"
 __author__ = "Lukasz Langa"
 __contact__ = "lukasz@langa.pl"
-
-import urllib.request, urllib.error, urllib.parse
-from lxml import html
-
-with urllib.request.urlopen("http://thingsweforget.blogspot.com/") as url:
-    contents = url.read()
-
