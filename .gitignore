@@ -1,0 +1,10 @@
+*.pyc
+*.db
+*.old
+*.bak
+/doc/_build
+/build
+/dist
+.DS_Store
+*.swp
+/src/langacore.thingsweforget.egg-info
