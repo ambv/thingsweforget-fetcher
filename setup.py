@@ -1,7 +1,7 @@
 import sys
 import os
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src')) 
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
 from setuptools import setup, find_packages
 from langacore.thingsweforget import __author__, __release__, __contact__
@@ -18,7 +18,7 @@ setup(
     #url = "FIXME",
     #download_url = "FIXME",
     packages = find_packages('src'),
-    namespace_packages = ['langacore'], 
+    namespace_packages = ['langacore'],
     include_package_data = True,
     package_dir = {'':'src'},
     keywords = ["http", "downloader", "sync", "www", "crawler", "blogspot"],
@@ -35,5 +35,5 @@ setup(
     install_requires = [
         'distribute',
         'lxml',
-   ],  
+   ],
     long_description = __description__)
