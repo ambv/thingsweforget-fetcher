@@ -7,11 +7,12 @@ want to keep a separate copy of all these pictures:
 
 * they are highly motivational
 * you don't always have Internet access
-* you might want to create an `awesome screensaver <>`_ by simply
-  pointing it to the directory where you store those post-its * you can
-  shuffle the post-its and e-mail yourself daily one of them * anything
-  creative of the sorts, maybe you want to do a massive collage of the
-  images for your next yellow t-shirt?
+* you might want to create an `awesome screensaver
+  <https://dl.dropboxusercontent.com/u/4830253/twf-screensaver.png>`_ by
+  simply pointing it to the directory where you store those post-its you
+  can shuffle the post-its and e-mail yourself daily one of them
+  anything creative of the sorts, maybe you want to do a massive collage
+  of the images for your next yellow t-shirt?
 
 Installation
 ------------
@@ -46,5 +47,5 @@ which will download all first images from every post on the website.
 
 Need more details?
 ------------------
-The code is rather thoroughly documented, you can request more documentation from me
-directly: lukasz@langa.pl.
+The code is rather thoroughly documented, you can request more
+documentation from me directly: lukasz@langa.pl.
