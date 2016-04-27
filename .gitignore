@@ -4,6 +4,9 @@
 *.bak
 *.swp
 *.local
+*.jpg
+*.jpeg
+*.JPG
 /doc/_build
 /build
 /dist

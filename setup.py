@@ -33,7 +33,7 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
     install_requires = [
-        'distribute',
         'lxml',
+        'cssselect',
    ],
     long_description = __description__)
